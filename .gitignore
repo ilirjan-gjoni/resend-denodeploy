@@ -1,1 +1,11 @@
+# Environment variables
 .env
+
+# Deno lock file
+deno.lock
+
+# Node modules
+node_modules/
+
+# VS Code settings
+.vscode/
