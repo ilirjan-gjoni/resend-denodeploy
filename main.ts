@@ -3,7 +3,7 @@ import "https://deno.land/std@0.224.0/dotenv/load.ts";
 
 import  { Hono } from 'jsr:@hono/hono'
 
-const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY');
+const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY' );
 
 const app = new Hono();
 
